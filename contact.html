@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title> Adeyemo Adedamola CV | Contact </title>
+        <link rel="stylesheet"
+        href="contact.css">
+        <script src="adedamola.js"></script>
+    </head>
+    <body>
+        <header>
+            <h2>Adeyemo Adedamola</h2>
+        </header>
+        
+            <h3> Contact Form</h3>
+            <h4>Please fill in all fields to contact me ! </h4>
+        
+        <section>
+            <form onsubmit="return validate()" id="contact-form" method="POST" action="contact.php">
+                <label for="name">Name</label>
+                <input id="name" class="control" name="name" type="text" minlength="4" placeholder="first Name last Name" required/><br />
+                <label for="email">Email</label>
+                <input id="email" class="control" name="email" type="email" placeholder="example@gmail.com" required/><br />
+                <label for="title">Title</label>
+                <input id="title" class="control" name="title" type="text" placeholder="title of your message" required/><br />
+                <textarea input id="message" class="control" name="message" minlength="20" placeholder="Type your message here..." required></textarea><br />
+                <input type="submit" class="control-submit" value="Send Message">
+            </form>
+        </section>
+    </body>
+</html>

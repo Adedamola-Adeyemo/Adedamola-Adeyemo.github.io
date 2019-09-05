@@ -1,0 +1,58 @@
+header{
+    background: #234562;
+    color: white;
+    padding-top: 10px;
+    min-height: 150px;
+    border-bottom: orangered 3px solid;
+}
+.about{
+    float: right;
+    width: 80%
+}
+.profile{
+    float:left;
+}
+nav {
+    float: right;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+
+body{
+    font: 15px/1.5, Arial, Helvetica, Sans-serif;
+    background: url("40copy.jpg");
+    color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+table{
+    width: 80%;
+}
+footer{
+    background: #234562;
+    color: white;
+    min-height: 50px;
+    border-top: orangered 3px solid;
+}
+footer ul{
+    float: left;
+    width: 80;
+    margin-top:15px;
+}
+footer li{
+    display: inline;
+    margin-left: 150px;
+}
+a{
+    color: yellow;
+    text-decoration: none   
+}
+a:hover{
+    color: red;
+}
